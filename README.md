@@ -1,1 +1,2 @@
-# Lab_Work_on_OOP_N1
+# Lab_Work_on_OOP_№1
+Лабораторная работа по ООП №1
