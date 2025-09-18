@@ -20,7 +20,8 @@ public class MySecondClass {
     }
 
     public MySecondClass() {
-        value2 = value1 = 0;
+        value1 = 0;
+        value2 = 1;
     }
 
     public MySecondClass(int value1, int value2) {
@@ -30,6 +31,6 @@ public class MySecondClass {
     }
 
     public int function() {
-        return(value1 - value2);
+        return(value1 / value2);
     }
 }

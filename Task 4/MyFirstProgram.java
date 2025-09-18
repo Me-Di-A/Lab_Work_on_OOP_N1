@@ -2,8 +2,7 @@ import myfirstpackage.*;
 
 class MyFirstClass {
     public static void main(String[] s) {
-        MySecondClass o = new MySecondClass(1, 2);
-
+        MySecondClass o = new MySecondClass();
         System.out.println(o.function());
 
         for (int i = 1; i <= 8; i++) {
