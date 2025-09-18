@@ -19,9 +19,7 @@ class MySecondClass {
     private int value1, value2;
 
     public static void main(String[] s) {
-        MySecondClass myObject = new MySecondClass(1, 2);
 
- 	    System.out.println(myObject.function());
     }
 
     public int getValue1() {
@@ -41,7 +39,8 @@ class MySecondClass {
     }
 
     MySecondClass() {
-        value2 = value1 = 0;
+        value1 = 0;
+        value2 = 1;
     }
 
     MySecondClass(int value1, int value2) {
@@ -51,6 +50,6 @@ class MySecondClass {
     }
 
     public int function() {
-        return(value1 - value2);
+        return(value1 / value2);
     }
 }
